@@ -27,7 +27,7 @@ else:
 
     texto = """python -m venv venv
     
-source venv/bin/activate  # No Windows: venv\\Scripts\\activate
+source venv/bin/activate
 
 pip install nltk spacy """
 
@@ -37,7 +37,7 @@ nltk.download('punkt')
 
 # Download the 'punkt_tab' resource
 
-nltk.download('punkt_tab') # This line was added to download the necessary resource
+nltk.download('punkt_tab')
 
 # Tokenizar com NLTK
 
